@@ -97,3 +97,10 @@ toc()
 lista %>% View()
 
 lista %>% count(typ_rymow)
+
+# Zapis do csv ------------------------------------------------------------
+
+con<-file('rymy.csv',encoding="cp1250")
+
+lista %>% 
+  write.csv(con)
