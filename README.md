@@ -5,19 +5,13 @@ Projekt konkursowy na: https://festiwalcyfryzacji.pl/digital-ars
 
 ### Ogólny zarys projektu
 
-### Step 01 - Pobranie danych
+### Pobranie danych
 - dane pobrane ze strony poezja.org przy wykorzystaniu kodów z R
 - dane pobrane z wikipedia source przy wykorzystaniu kodów Python
 - następnie stworzyliśmy jeden zbiór danych i wrzuciliśmy go do folderu data.
-- wszystkie dane, które mamy dostępne w katalogu data/df_poems.csv
+- wybraliśmy wiersze z rymami (ABBA, ABAB, AABB), gdzie średnia długość wersa nie była dłuższa niż 50.
 
-Wszystkie wiersze dostępne na Google Drive.
-
-### Step 02 - Tworzenie modelu
-
-- tutaj coś będzie kiedyś :)
-
-### Step XX
-
-- tutaj coś będzie kiedyś :)
+### Trenowanie
+- model trenowaliśmy na google colab
+- w sumie wytrenowaliśmy 160.000 epok dla modelu GPT-2
 
